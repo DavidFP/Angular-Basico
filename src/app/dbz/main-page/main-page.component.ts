@@ -12,4 +12,7 @@ export class MainPageComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  agregarPersonaje() : any{
+    console.log("---->> AGREGAR!!")
+  }
 }
